@@ -1,0 +1,144 @@
+[
+  { "keys": ["alt+a"], "command": "insert", "args": { "characters": "ā" } },
+  {
+    "keys": ["alt+shift+a"],
+    "command": "insert",
+    "args": { "characters": "Ā" }
+  },
+
+  { "keys": ["alt+i"], "command": "insert", "args": { "characters": "ī" } },
+  {
+    "keys": ["alt+shift+i"],
+    "command": "insert",
+    "args": { "characters": "Ī" }
+  },
+
+  { "keys": ["alt+u"], "command": "insert", "args": { "characters": "ū" } },
+  {
+    "keys": ["alt+shift+u"],
+    "command": "insert",
+    "args": { "characters": "Ū" }
+  },
+
+  { "keys": ["alt+r"], "command": "insert", "args": { "characters": "ṛ" } },
+  {
+    "keys": ["alt+shift+r"],
+    "command": "insert",
+    "args": { "characters": "Ṛ" }
+  },
+
+  { "keys": ["alt+f"], "command": "insert", "args": { "characters": "ṝ" } },
+  {
+    "keys": ["alt+shift+f"],
+    "command": "insert",
+    "args": { "characters": "Ṝ" }
+  },
+
+  { "keys": ["alt+l"], "command": "insert", "args": { "characters": "ḷ" } },
+  {
+    "keys": ["alt+shift+l"],
+    "command": "insert",
+    "args": { "characters": "Ḷ" }
+  },
+
+  { "keys": ["alt+k"], "command": "insert", "args": { "characters": "ḹ" } },
+  {
+    "keys": ["alt+shift+k"],
+    "command": "insert",
+    "args": { "characters": "Ḹ" }
+  },
+
+  { "keys": ["alt+m"], "command": "insert", "args": { "characters": "ṃ" } },
+  {
+    "keys": ["alt+shift+m"],
+    "command": "insert",
+    "args": { "characters": "Ṃ" }
+  },
+
+  { "keys": ["alt+,"], "command": "insert", "args": { "characters": "ṁ" } },
+  {
+    "keys": ["alt+shift+,"],
+    "command": "insert",
+    "args": { "characters": "Ṁ" }
+  },
+
+  { "keys": ["alt+h"], "command": "insert", "args": { "characters": "ḥ" } },
+  {
+    "keys": ["alt+shift+h"],
+    "command": "insert",
+    "args": { "characters": "Ḥ" }
+  },
+
+  { "keys": ["alt+t"], "command": "insert", "args": { "characters": "ṭ" } },
+  {
+    "keys": ["alt+shift+t"],
+    "command": "insert",
+    "args": { "characters": "Ṭ" }
+  },
+
+  { "keys": ["alt+d"], "command": "insert", "args": { "characters": "ḍ" } },
+  {
+    "keys": ["alt+shift+d"],
+    "command": "insert",
+    "args": { "characters": "Ḍ" }
+  },
+
+  { "keys": ["alt+g"], "command": "insert", "args": { "characters": "ṅ" } },
+  {
+    "keys": ["alt+shift+g"],
+    "command": "insert",
+    "args": { "characters": "Ṅ" }
+  },
+
+  { "keys": ["alt+j"], "command": "insert", "args": { "characters": "ñ" } },
+  {
+    "keys": ["alt+shift+j"],
+    "command": "insert",
+    "args": { "characters": "Ñ" }
+  },
+
+  { "keys": ["alt+n"], "command": "insert", "args": { "characters": "ṇ" } },
+  {
+    "keys": ["alt+shift+n"],
+    "command": "insert",
+    "args": { "characters": "Ṇ" }
+  },
+
+  { "keys": ["alt+s"], "command": "insert", "args": { "characters": "ś" } },
+  {
+    "keys": ["alt+shift+s"],
+    "command": "insert",
+    "args": { "characters": "Ś" }
+  },
+
+  { "keys": ["alt+x"], "command": "insert", "args": { "characters": "ṣ" } },
+  {
+    "keys": ["alt+shift+x"],
+    "command": "insert",
+    "args": { "characters": "Ṣ" }
+  },
+
+  { "keys": ["alt+e"], "command": "insert", "args": { "characters": "ē" } },
+  {
+    "keys": ["alt+shift+e"],
+    "command": "insert",
+    "args": { "characters": "Ē" }
+  },
+
+  { "keys": ["alt+o"], "command": "insert", "args": { "characters": "ō" } },
+  {
+    "keys": ["alt+shift+o"],
+    "command": "insert",
+    "args": { "characters": "Ō" }
+  },
+
+  { "keys": ["alt+-"], "command": "insert", "args": { "characters": "—" } },
+  { "keys": ["alt+."], "command": "insert", "args": { "characters": "…" } },
+
+  { "keys": ["alt+c"], "command": "insert", "args": { "characters": "m̐" } },
+  {
+    "keys": ["alt+shift+c"],
+    "command": "insert",
+    "args": { "characters": "M̐" }
+  }
+]

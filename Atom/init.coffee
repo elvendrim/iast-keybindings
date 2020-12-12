@@ -177,3 +177,13 @@ atom.commands.add 'atom-text-editor',
   'custom:insert-Sh': (event) ->
     editor = @getModel()
     editor.insertText('Ṣ')
+
+atom.commands.add 'atom-text-editor',
+  'custom:insert-mcandrabindu': (event) ->
+    editor = @getModel()
+    editor.insertText('m̐')
+
+atom.commands.add 'atom-text-editor',
+  'custom:insert-Mcandrabindu': (event) ->
+    editor = @getModel()
+    editor.insertText('M̐')

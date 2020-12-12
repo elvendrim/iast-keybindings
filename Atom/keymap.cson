@@ -17,6 +17,7 @@
     "alt-j": "custom:insert-ntilde"
     "alt-s": "custom:insert-s"
     "alt-x": "custom:insert-sh"
+    "alt-c": "custom:insert-mcandrabindu"
     "alt--": "custom:insert-emdash"
     "alt-.": "custom:insert-dots"
     "alt-shift-a": "custom:insert-A"
@@ -36,5 +37,6 @@
     "alt-shift-j": "custom:insert-Ntilde"
     "alt-shift-s": "custom:insert-S"
     "alt-shift-x": "custom:insert-Sh"
+    "alt-shift-c": "custom:insert-Mcandrabindu"
   }
 }

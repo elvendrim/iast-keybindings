@@ -1,0 +1,309 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+a",
+    "command": "type",
+    "args": {
+      "text": "ā"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+a",
+    "command": "type",
+    "args": {
+      "text": "Ā"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+i",
+    "command": "type",
+    "args": {
+      "text": "ī"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+i",
+    "command": "type",
+    "args": {
+      "text": "Ī"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+u",
+    "command": "type",
+    "args": {
+      "text": "ū"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+u",
+    "command": "type",
+    "args": {
+      "text": "Ū"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "type",
+    "args": {
+      "text": "ṛ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "type",
+    "args": {
+      "text": "Ṛ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f",
+    "command": "type",
+    "args": {
+      "text": "ṝ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "type",
+    "args": {
+      "text": "Ṝ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "type",
+    "args": {
+      "text": "ḷ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "type",
+    "args": {
+      "text": "Ḷ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "type",
+    "args": {
+      "text": "ḹ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "type",
+    "args": {
+      "text": "Ḹ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+m",
+    "command": "type",
+    "args": {
+      "text": "ṃ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+m",
+    "command": "type",
+    "args": {
+      "text": "Ṃ"
+    },
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+c",
+    "command": "type",
+    "args": {
+      "text": "m̐"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "type",
+    "args": {
+      "text": "M̐"
+    },
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+oem_comma",
+    "command": "type",
+    "args": {
+      "text": "ṁ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+oem_comma",
+    "command": "type",
+    "args": {
+      "text": "Ṁ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+h",
+    "command": "type",
+    "args": {
+      "text": "ḥ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+h",
+    "command": "type",
+    "args": {
+      "text": "Ḥ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+t",
+    "command": "type",
+    "args": {
+      "text": "ṭ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "type",
+    "args": {
+      "text": "Ṭ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "type",
+    "args": {
+      "text": "ḍ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "type",
+    "args": {
+      "text": "Ḍ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+n",
+    "command": "type",
+    "args": {
+      "text": "ṇ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "type",
+    "args": {
+      "text": "Ṇ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+g",
+    "command": "type",
+    "args": {
+      "text": "ṅ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+g",
+    "command": "type",
+    "args": {
+      "text": "Ṅ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "type",
+    "args": {
+      "text": "ñ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "type",
+    "args": {
+      "text": "Ñ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+s",
+    "command": "type",
+    "args": {
+      "text": "ś"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "type",
+    "args": {
+      "text": "Ś"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "type",
+    "args": {
+      "text": "ṣ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+x",
+    "command": "type",
+    "args": {
+      "text": "Ṣ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+oem_minus",
+    "command": "type",
+    "args": {
+      "text": "—"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+oem_period",
+    "command": "type",
+    "args": {
+      "text": "…"
+    },
+    "when": "editorTextFocus"
+  }
+]
