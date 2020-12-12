@@ -1,0 +1,64 @@
+// XKB layout for International Alphabet of Sanskrit Transliteration (IAST)
+// Based on Toshiya Unebe's "EasyUnicode" keyboard layout for Apple's OSX
+
+
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+name[Group1] = "Sanskrit IAST";
+include "level3(lwin_switch)"
+
+    key <TLDE> {  [   grave,    asciitilde,    U3030              ] }; // `, ~, 〰
+    key <AE01> {  [   1,        exclam,        U25CB              ] }; // 1, !, ○
+    key <AE02> {  [   2,        at,            U00A9,     U00AE   ] }; // 2, @, ©, ®
+    key <AE03> {  [   3,        numbersign,    U25EF,     U25CE   ] }; // 3, #, ◯, ◎
+    key <AE04> {  [   4,        dollar,        U00A7              ] }; // 4, $, §
+    key <AE05> {  [   5,        percent,       U00D7,     U203B   ] }; // 5, %, ×, ※
+    key <AE06> {  [   6,        asciicircum,   U2020,     U2021   ] }; // 6, ^, †, ‡
+    key <AE07> {  [   7,        ampersand,     U0950,     U2638   ] }; // 7, &, ॐ, ☸
+    key <AE08> {  [   8,        asterisk,      U2039,     U00AB   ] }; // 8, *, ‹, «
+    key <AE09> {  [   9,        parenleft,     U203A,     U00BB   ] }; // 9, (, ›, »
+    key <AE10> {  [   0,        parenright,    U00F8,     U00D8   ] }; // 0, ), ø, Ø
+    key <AE11> {  [   minus,    underscore,    U2013,     U2014   ] }; // -, _, –, —
+    key <AE12> {  [   equal,    plus                              ] };
+
+//Q Row
+    key <AD01> {  [   q,        Q,              U00E6,    U00C6   ] }; // q, Q, æ, Æ
+    key <AD02> {  [   w,        W,              U00DF             ] }; // w, W, ß
+    key <AD03> {  [   e,        E,              U0113,    U0112   ] }; // e, E, ē, Ē
+    key <AD04> {  [   r,        R,              U1E5B,    U1E5A   ] }; // r, R, ṛ, Ṛ
+    key <AD05> {  [   t,        T,              U1E6D,    U1E6C   ] }; // t, T, ṭ, Ṭ
+    key <AD06> {  [   y,        Y,              U00A5             ] }; // y, Y, ¥
+    key <AD07> {  [   u,        U,              U016B,    U016A   ] }; // u, U, ū, Ū
+    key <AD08> {  [   i,        I,              U012B,    U012A   ] }; // i, I, ī, Ī
+    key <AD09> {  [   o,        O,              U014D,    U014C   ] }; // o, O, ō, Ō
+    key <AD10> {  [   p,        P,              U0153,    U0152   ] }; // p, P, œ, Œ
+    key <AD11> {  [   bracketleft,  braceleft,  U2018,    U201C   ] }; // [, {, ‘, “
+    key <AD12> {  [   bracketright, braceright, U2019,    U201D   ] }; // ], }, ’, ”
+
+//A Row
+    key <AC01>  { [   a,        A,              U0101,    U0100  ] };  // a, A, ā, Ā
+    key <AC02>  { [   s,        S,              U015B,    U015A  ] };  // s, S, ś, Ś
+    key <AC03>  { [   d,        D,              U1E0D,    U1E0C  ] };  // d, D, ḍ, Ḍ
+    key <AC04>  { [   f,        F,              U1E5D,    U1E5C  ] };  // f, F, ṝ, Ṝ
+    key <AC05>  { [   g,        G,              U1E45,    U1E44  ] };  // g, G, ṅ, Ṅ
+    key <AC06>  { [   h,        H,              U1E25,    U1E24  ] };  // h, H, ḥ, Ḥ
+    key <AC07>  { [   j,        J,              U00F1,    U00D1  ] };  // j, J, ñ, Ñ
+    key <AC08>  { [   k,        K,              U1E45,    U1E44  ] };  // k, K, ṅ, Ṅ
+    key <AC09>  { [   l,        L,              U1E37,    U1E36  ] };  // l, L, ḷ, Ḷ
+    key <AC10>  { [   semicolon,  colon,        U1E39,    U1E38  ] };  // ;, :, ḹ, Ḹ
+    key <AC11>  { [   apostrophe, quotedbl                       ] };
+
+//Z Row
+    key <AB01> {  [   z,    Z,    U017A,    U0179        ] }; // z, Z, ź, Ź
+    key <AB02> {  [   x,    X,    U1E63,    U1E62        ] }; // x, X, ṣ, Ṣ
+    key <AB03> {  [   c,    C,    U00F1,    U00D1        ] }; // c, C, ñ, Ñ
+    key <AB04> {  [   v,    V,    U221A                  ] }; // v, V, √
+    key <AB05> {  [   b,    B,    U0325                  ] }; // b, B, ̥ (combining ring below for r̥ and l̥)
+    key <AB06> {  [   n,    N,    U1E47,    U1E46        ] }; // n, N, ṇ, Ṇ
+    key <AB07> {  [   m,    M,    U1E43,    U1E42        ] }; //  m, M, ṃ, Ṃ
+    key <AB08> {  [   comma,      less,     U1E41, U1E40 ] }; // ,, >, ṁ, Ṁ
+    key <AB09> {  [   period,     greater,  U2026        ] }; // ., >, …
+    key <AB10> {  [   slash,      question, U2022, U25CB ] }; // /, ?, •, ○
+    key <BKSL> {  [   backslash,  bar,      U00A6        ] }; // \, |, ¦
+    };
+
